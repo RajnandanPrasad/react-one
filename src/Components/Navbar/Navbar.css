@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    display: flex;
+    
+    padding: 16px;
+    margin:10px
+}
+
+.nav-logo img{
+    height: 80px;
+    width: 80px;
+    ;
+}
+.nav-logo p{
+    height: 1px;
+    width: 1px;
+}
+.nav-menu{
+   
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap: 80px;
+}
+.nav-menu :hover{
+    padding: 2px;
+    animation-duration: 5s;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(125, 138, 222);
+}
+.btn{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap: 80px;
+    margin-left: 100px;
+}
