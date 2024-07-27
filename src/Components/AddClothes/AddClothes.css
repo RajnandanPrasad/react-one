@@ -1,0 +1,56 @@
+
+
+.cloth-container{
+  
+    display: flex;
+    flex: direction 3 column;
+    gap: 20px;
+    flex-wrap: wrap;
+    row-gap:100px ;
+
+}
+
+
+
+.cloth-container img{
+    height: 480px;
+    width: 350px;
+    margin-left: 50px;
+  
+
+    
+}
+.cloth-container p{
+    font-size: large;
+}
+.shirt-btn button{
+    width: 70px;
+    height: 48px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.shirt-btn button:hover{
+    background-color: red;
+    transition: background-color 2s;
+}
+@media(max-width:800px){
+    .cloth-container{
+  
+        flex: direction 2 column;
+        gap: 2px;
+        row-gap:10px ;
+    
+    }
+   
+    .cloth-container img{
+        height: 12rem;
+        width: 10rem;
+        margin-left: 5px;
+      
+    
+        
+    }
+    
+}

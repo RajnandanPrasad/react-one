@@ -1,18 +1,37 @@
+
+
+
+
+
 body{
     background-color: rgb(255, 255, 255);
 }
 
 .navbar{
+    height: 65px;
+
     display: flex;
-    
-    padding: 16px;
-    margin:10px
+    justify-content: space-around;
+    padding: 0px;
+  box-shadow:0px 2px 3px -3px black;
+  background-color: rgb(227, 202, 202);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  
+ 
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .nav-logo img{
-    height: 80px;
-    width: 80px;
-    ;
+    height: 70px;
+    width: 75px;
+    
+    
 }
 .nav-logo p{
     height: 1px;
@@ -25,19 +44,113 @@ body{
     align-items: center;
     list-style:none;
     gap: 80px;
+    font-size: 20px;
+    font-weight:500 ;
 }
 .nav-menu :hover{
-    padding: 2px;
-    animation-duration: 5s;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    background-color: rgb(125, 138, 222);
+   
+    background-color: red;
+    transition: background-color 2s;
+    
+    border-radius: 78px;
+    
+    color: rgb(90, 4, 249);
+
+
+   
 }
 .btn{
-    color: rgb(0, 0, 0);
+    color: rgb(237, 224, 224);
     display: flex;
     align-items: center;
     list-style:none;
-    gap: 80px;
+    gap: 0px;
     margin-left: 100px;
+    
+}
+.cart img{
+    height: 50px;
+    width: 50px;
+    
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.cart{
+display: flex;
+align-items: center;
+   
+}
+.btn button{
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 75px;
+    cursor: pointer;
+    
+
+}
+.btn button:hover{
+    background-color: red;
+    transition: 2s background-color;
+}
+.btn button:active{
+    background:grey;
+}
+
+@media(max-width:800px){
+    .nav-menu{
+   
+       
+        gap: 2rem;
+        font-size: 17px;
+        
+    }
+    .cart img{
+        height: 40px;
+        width: 40px;
+        
+    }
+}
+
+
+@media(max-width:400px){
+    .navbar{
+        width: 100%;
+    }
+
+    .nav-logo img{
+        height: 1.5rem;
+        width: 1.5rem;
+        
+        
+    }
+    .nav-menu{
+   
+       
+        gap: 0.5rem;
+        font-size: 0.8rem;
+        
+    }
+    .cart img{
+        height: 1rem;
+        width: 1.2rem;
+        align-items: center;
+        
+    }
+    .btn button{
+        width: 2rem;
+        height: 1rem;
+       font-size: 0.5rem;
+       
+        
+    
+    }
+
+  
 }
