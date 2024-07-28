@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path='react-one' element={<Home/>}/>
+      <Route path='/react-one/' element={<Home/>}/>
       <Route path='/facility' element={<Facility/>}/>
       <Route path='/contact us' element={<ContactUs/>}/>
       <Route path='/login' element={<Login/>}/>
