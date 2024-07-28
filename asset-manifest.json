@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-one/static/css/main.81679637.css",
+    "main.js": "/react-one/static/js/main.8949e3d8.js",
+    "static/js/453.8ab44547.chunk.js": "/react-one/static/js/453.8ab44547.chunk.js",
+    "static/media/saree3.png": "/react-one/static/media/saree3.66c31fb95a17c47421c2.png",
+    "static/media/bg2.png": "/react-one/static/media/bg2.34048099f752eac5c224.png",
+    "static/media/kurta2.png": "/react-one/static/media/kurta2.60d42d2ab9f9a2166ca6.png",
+    "static/media/tshirt.png": "/react-one/static/media/tshirt.853f97c73f66d09dd50b.png",
+    "static/media/shirt.png": "/react-one/static/media/shirt.06b7a19b49c8b734755b.png",
+    "static/media/jeans.png": "/react-one/static/media/jeans.e2d1b17011104cb69d02.png",
+    "static/media/whatsapp.png": "/react-one/static/media/whatsapp.807cf0d84060a9ee2059.png",
+    "static/media/blazer.png": "/react-one/static/media/blazer.05f713781a0b8e112f08.png",
+    "static/media/pant3.png": "/react-one/static/media/pant3.672763bec2caa2a16159.png",
+    "static/media/insta.png": "/react-one/static/media/insta.fe5c5dbaf8f6296ec7a7.png",
+    "static/media/logo2.png": "/react-one/static/media/logo2.fa97078ded7807e150b8.png",
+    "static/media/facebook.png": "/react-one/static/media/facebook.5ce3a1ca8559b4dc0487.png",
+    "index.html": "/react-one/index.html",
+    "static/media/cart.svg": "/react-one/static/media/cart.79f3b931be8d0b8dedd8ecb6c91a7310.svg",
+    "main.81679637.css.map": "/react-one/static/css/main.81679637.css.map",
+    "main.8949e3d8.js.map": "/react-one/static/js/main.8949e3d8.js.map",
+    "453.8ab44547.chunk.js.map": "/react-one/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81679637.css",
+    "static/js/main.8949e3d8.js"
+  ]
+}
